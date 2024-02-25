@@ -187,6 +187,15 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         status_command i3status
+            colors {
+                background #000000
+                    statusline #ffffff
+
+                    focused_workspace  #ffffff #020202
+                    active_workspace   #ffffff #333333
+                    inactive_workspace #888888 #222222
+                    urgent_workspace   #ffffff #900000
+            }
 }
 exec nitrogen --restore
 for_window [class="Firefox"] border pixel 1
