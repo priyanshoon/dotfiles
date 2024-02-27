@@ -3,7 +3,7 @@ import = [
 ]
 
 [window]
-opacity = 0.9
+opacity = 0.88
 
 [font.normal]
 family = "Fira Mono Nerd Font"

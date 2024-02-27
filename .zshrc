@@ -103,3 +103,4 @@ source $ZSH/oh-my-zsh.sh
 alias cls="clear"
 alias vim="nvim"
 alias tmux="tmux -u"
+alias mkdir="mkdir -p"
