@@ -6,7 +6,7 @@ import = [
 opacity = 0.90
 
 [font.normal]
-family = "Fira Mono Nerd Font"
+family = "Twilio Sans Mono"
 
 [colors.primary]
 background = "#0e0b00"
