@@ -6,7 +6,7 @@ import = [
 opacity = 1
 
 [font.normal]
-family = "Twilio Sans Mono Retina"
+family = "Courier Prime"
 
 [font]
-size = 15.5
+size = 16.5

@@ -6,9 +6,18 @@
 # ß
 # If the above line is not correctly displayed, fix your editor first!
 
+# general {
+#         colors = true
+#         interval = 5
+# }
+
 general {
-        colors = true
-        interval = 5
+   colors = true
+   color_good = "#859900"
+   color_bad = "#dc322f"
+   color_degraded = "#cb4b16"
+   output_format = "i3bar"
+   interval = 5
 }
 
 order += "ipv6"
