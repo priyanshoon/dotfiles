@@ -1,15 +1,20 @@
 import = [
-    "~/.config/alacritty/themes/themes/ayu_dark.toml"
+    "~/.config/alacritty/themes/themes/kanagawa_dragon.toml"
 ]
 
 [window]
-opacity = 1
+opacity = 0.98
 
 [colors.primary]
-background = "#0e1112"
+#background = "#0e0b00"
+background = "#181616"
+
+[colors.cursor]
+text = "#0e0b00"
+cursor = "#ffffff"
 
 [font.normal]
-family = "Twilio Sans Mono"
+family = "Fira Mono Nerd Font Propo"
 
 [font]
 size = 16
