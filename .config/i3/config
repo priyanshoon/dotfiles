@@ -211,4 +211,4 @@ bindsym Shift+Print exec --no-startup-id maim --select "/home/$USER/Pictures/scr
 bindsym Ctrl+Shift+Print exec --no-startup-id maim --format=png --select | xclip -selection clipboard -t image/png
 
 # Adds transparency
-# exec --no-startup-id picom -b
+exec --no-startup-id picom -b
