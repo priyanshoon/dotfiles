@@ -2,11 +2,14 @@ import = [
     "~/.config/alacritty/themes/themes/afterglow.toml"
 ]
 
+[env]
+term = "xterm-256color"
+
 [window]
-opacity = 0.97
+opacity = 0.9
 
 [colors.primary]
-background = "#0e0b00"
+background = "#0d0b00"
 #background = "#181616"
 
 #[colors.cursor]
@@ -14,7 +17,7 @@ background = "#0e0b00"
 #cursor = "#ffffff"
 
 [font.normal]
-family = "Fira Mono Nerd Font"
+family = "0xProtoNerdFontPropo"
 
 [font]
-size = 16.5
+size = 16
