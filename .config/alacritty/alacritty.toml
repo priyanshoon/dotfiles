@@ -6,10 +6,10 @@ import = [
 term = "xterm-256color"
 
 [window]
-opacity = 0.9
+opacity = 0.94
 
 [colors.primary]
-background = "#0d0b00"
+background = "#0e0b00"
 #background = "#181616"
 
 #[colors.cursor]
@@ -17,7 +17,7 @@ background = "#0d0b00"
 #cursor = "#ffffff"
 
 [font.normal]
-family = "0xProtoNerdFontPropo"
+family = "Fira Mono Nerd Font Propo"
 
 [font]
-size = 16
+size = 17
