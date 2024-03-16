@@ -8,14 +8,19 @@ end
 
 return {
     {
-        "EdenEast/nightfox.nvim",
-        name = "nightfox",
+        "rebelot/kanagawa.nvim",
+        name = "kanagawa",
         config = function()
-            local nightfox = require("nightfox")
-            nightfox.setup({
-                dim_inactive = true,
+            local kanagawa = require('kanagawa')
+            kanagawa.setup({
+                transparent = true,
+                theme = "dragon",              -- Load "wave" theme when 'background' option is not set
+                background = {               -- map the value of 'background' option to a theme
+                    dark = "dragon",           -- try "dragon" !
+                    light = "lotus"
+                },
             })
-            ColorMyPencils("terafox")
-        end
-    } -- lazy
+            vim.cmd("colorscheme kanagawa")
+        end,
+    }
 }
