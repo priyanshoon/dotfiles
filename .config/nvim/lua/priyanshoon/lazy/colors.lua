@@ -1,5 +1,5 @@
 function ColorMyPencils(color)
-	color = color or "terafox"
+	color = color or "rose-pine"
 	vim.cmd.colorscheme(color)
 
 	vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
@@ -20,7 +20,27 @@ return {
                     light = "lotus"
                 },
             })
-            vim.cmd("colorscheme kanagawa")
         end,
+    },
+    {
+        "rose-pine/neovim",
+        name = "rose-pine",
+        config = function ()
+            local rosepine = require("rose-pine")
+            rosepine.setup({
+                dim_inactive_windows = true,
+                enable = {
+                    terminal = true,
+                    legacy_highlights = true, -- Improve compatibility for previous versions of Neovim
+                    migrations = true, -- Handle deprecated options automatically
+                },
+                styles = {
+                    bold = true,
+                    italic = true,
+                    transparency = false,
+                },
+            })
+            ColorMyPencils("rose-pine")
+        end
     }
 }
