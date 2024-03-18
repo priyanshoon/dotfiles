@@ -104,3 +104,4 @@ alias cls="clear"
 alias vim="nvim"
 alias tmux="tmux -u"
 alias mkdir="mkdir -p"
+alias mupdf='mupdf-gl -I'
