@@ -105,3 +105,6 @@ alias vim="nvim"
 alias tmux="tmux -u"
 alias mkdir="mkdir -p"
 alias mupdf='mupdf-gl -I'
+alias vi="nvim"
+
+[ -f "/home/priyanshoon/.ghcup/env" ] && . "/home/priyanshoon/.ghcup/env" # ghcup-env
