@@ -5,3 +5,6 @@ Xft.hintstyle: hintslight
 Xft.rgba: rgb
 Xft.lcdfilter: lcddefault
 Xft.dpi: 96
+
+Sxiv.background: #0E0A00
+Sxiv.foreground: #ffffff
