@@ -8,21 +8,6 @@ end
 
 return {
     {
-        "rebelot/kanagawa.nvim",
-        name = "kanagawa",
-        config = function()
-            local kanagawa = require('kanagawa')
-            kanagawa.setup({
-                transparent = true,
-                theme = "dragon",              -- Load "wave" theme when 'background' option is not set
-                background = {               -- map the value of 'background' option to a theme
-                    dark = "dragon",           -- try "dragon" !
-                    light = "lotus"
-                },
-            })
-        end,
-    },
-    {
         "rose-pine/neovim",
         name = "rose-pine",
         config = function ()
@@ -40,7 +25,25 @@ return {
                     transparency = false,
                 },
             })
-            ColorMyPencils("rose-pine")
         end
     },
+    {
+        "ellisonleao/gruvbox.nvim",
+        name = "gruvbox",
+        config = function()
+            local gruvbox = require("gruvbox")
+            gruvbox.setup({
+                bold = false,
+                italic = {
+                    strings = false,
+                    emphasis = false,
+                    comments = false,
+                    operators = false,
+                    folds = false,
+                },
+
+            })
+            ColorMyPencils("gruvbox")
+        end
+    }
 }
