@@ -19,17 +19,17 @@ return {
                     transparency = false,
                 },
             })
-            -- ColorMyPencils("rose-pine-main")
+            ColorMyPencils("rose-pine-main")
         end
     },
-    {
-        "ellisonleao/gruvbox.nvim",
-        name = "gruvbox",
-        config = function()
-            local gruvbox = require("gruvbox")
-            gruvbox.setup({
-            })
-            ColorMyPencils("gruvbox")
-        end
-    }
+    -- {
+    --     "ellisonleao/gruvbox.nvim",
+    --     name = "gruvbox",
+    --     config = function()
+    --         local gruvbox = require("gruvbox")
+    --         gruvbox.setup({
+    --         })
+    --         ColorMyPencils("gruvbox")
+    --     end
+    -- }
 }
