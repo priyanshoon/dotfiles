@@ -19,17 +19,22 @@ return {
                     transparency = false,
                 },
             })
-            ColorMyPencils("rose-pine-main")
+            -- ColorMyPencils("rose-pine-main")
         end
     },
-    -- {
-    --     "ellisonleao/gruvbox.nvim",
-    --     name = "gruvbox",
-    --     config = function()
-    --         local gruvbox = require("gruvbox")
-    --         gruvbox.setup({
-    --         })
-    --         ColorMyPencils("gruvbox")
-    --     end
-    -- }
+    {
+        "catppuccin/nvim",
+        name = "catppuccin",
+        config = function ()
+            local catppuccin = require("catppuccin")
+            catppuccin.setup({
+                flavour = "frappe", -- latte, frappe, macchiato, mocha
+                background = { -- :h background
+                    light = "latte",
+                    dark = "frappe",
+                },
+            })
+            ColorMyPencils("catppuccin")
+        end
+    }
 }

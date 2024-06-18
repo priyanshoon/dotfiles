@@ -216,4 +216,6 @@ bindsym Ctrl+Shift+Print exec --no-startup-id maim --format=png --select | xclip
 # Adds transparency
 # exec --no-startup-id picom -b
 
+# Some extra bullshit thing
 exec --no-startup-id xrandr --output HDMI-A-0 --mode 1920x1080 --rate 74.97
+exec --no-startup-id xset s on
