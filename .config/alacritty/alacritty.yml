@@ -2,8 +2,8 @@
 
 # Import additional configuration files
 
-# import:
-#   - ~/.alacritty-colorscheme/themes/ubuntu.yaml
+import:
+  - ~/.alacritty-colorscheme/themes/gruvbox_dark.yaml
 # Imports are loaded in order, skipping all missing files, with the importing
 # file being loaded last. If a field is already present in a previous import, it
 # will be replaced.
@@ -70,7 +70,7 @@ window:
   #
   # Window opacity as a floating point number from `0.0` to `1.0`.
   # The value `0.0` is completely transparent and `1.0` is opaque.
-  opacity: 0.89
+  opacity: 1
 
   # Startup Mode (changes require restart)
   #
@@ -133,46 +133,49 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: Cascadia Code
+    family: FiraMono Nerd Font 
+    # family: JetBrainsMono Nerd Font Mono
+    # family: Hack Nerd Font Mono
+    # family: Cascadia Code PL
 
     # The `style` can be specified to pick a specific face.
     #style: Regular
 
   # Bold font face
-  #bold:
+  bold:
     # Font family
     #
     # If the bold family is not specified, it will fall back to the
     # value specified for the normal font.
-    #family: monospace
+    family: FiraMono Nerd Font
 
     # The `style` can be specified to pick a specific face.
     #style: Bold
 
   # Italic font face
-  #italic:
+  italic:
     # Font family
     #
     # If the italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    #family: monospace
+    family: FiraMono Nerd Font 
 
     # The `style` can be specified to pick a specific face.
     #style: Italic
 
   # Bold italic font face
-  #bold_italic:
+  bold_italic:
     # Font family
     #
     # If the bold italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    #family: monospace
+    family: FiraMono Nerd Font
 
     # The `style` can be specified to pick a specific face.
     #style: Bold Italic
 
   # Point size
-  size: 18.5
+  size: 18
 
   # Offset is the extra space around each character. `offset.y` can be thought
   # of as modifying the line spacing, and `offset.x` as modifying the letter
@@ -228,9 +231,12 @@ colors:
 colors:
  #Default colors
   primary:
-    background: '#1a1d1a'
+    background: '#181616'
+    # background: '#0b0e05'
+    # background: '#1a1d1c'
     # background: '#1d2020'
-    foreground: '#c5c8c6'
+    # background: '#1c1c1c'
+    foreground: '#b8b8ae'
 
     # Bright and dim foreground colors
     #
