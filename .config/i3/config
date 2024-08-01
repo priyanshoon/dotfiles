@@ -201,26 +201,36 @@ set $darkgray #1d2021
 
 # finds out, if available)
 bar {
-    status_command i3blocks -c ~/.config/i3/i3blocks.conf
-    position top
+    # status_command i3blocks -c ~/.config/i3/i3blocks.conf
+    status_command i3status
+    # colors {
+    #     # bar background color
+    #     background $bg
+    #     # text color used for blocks that do not have a color specified.
+    #     statusline $yellow
+    #     # workspaces section            
+    #     #                    border  backgr. text
+    #     focused_workspace    $aqua $aqua $darkgray
+    #     inactive_workspace   $darkgray $darkgray $yellow
+    #     active_workspace     $darkgray $darkgray $yellow
+    #     urgent_workspace     $red $red $bg
+    # }
     colors {
-        # bar background color
-        background $bg
-        # text color used for blocks that do not have a color specified.
-        statusline $yellow
-        # workspaces section            
-        #                    border  backgr. text
-        focused_workspace    $aqua $aqua $darkgray
-        inactive_workspace   $darkgray $darkgray $yellow
-        active_workspace     $darkgray $darkgray $yellow
-        urgent_workspace     $red $red $bg
-    }
+         background #000000
+         statusline #ffffff
+
+         focused_workspace  #ffffff #020202
+         active_workspace   #ffffff #333333
+         inactive_workspace #888888 #222222
+         urgent_workspace   #ffffff #900000
+     }
+
 }
 
-client.focused          $blue $blue $darkgray $purple $darkgray
-client.focused_inactive $darkgray $darkgray $yellow $purple $darkgray
-client.unfocused        $darkgray $darkgray $yellow $purple $darkgray
-client.urgent           $red $red $white $red $red
+# client.focused          $blue $blue $darkgray $purple $darkgray
+# client.focused_inactive $darkgray $darkgray $yellow $purple $darkgray
+# client.unfocused        $darkgray $darkgray $yellow $purple $darkgray
+# client.urgent           $red $red $white $red $red
 
 # restoring wallpaper
 exec nitrogen --restore
