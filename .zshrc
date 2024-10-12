@@ -108,8 +108,11 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias cls="clear"
 # alias vim="nvim"
-alias tmux="tmux -u"
+# alias tmux="tmux -u"
 alias mkdir="mkdir -p"
-alias mupdf='mupdf-gl -I'
+# alias mupdf='mupdf-gl -I'
 alias vi="nvim"
 
+# neofetch
+
+. "/home/priyanshoon/.deno/env"

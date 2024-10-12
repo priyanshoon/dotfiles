@@ -1,0 +1,24 @@
+[colors.cursor]
+cursor = "CellForeground"
+text = "CellBackground"
+
+[colors.primary]
+# background = "#0b0e05"
+# background = "#0f0f0f"
+# background = "#0D0B05"
+# background = "#000000"
+# background = "#1c1f20"
+background = "#0d0d0d"
+
+[font]
+size = 16.5
+
+[font.normal]
+# family = "Victor Mono"
+family = "Fira Mono"
+# family = "Hack Nerd Font"
+# family = "JetBrains Mono Nerd Font Mono"
+# family = "Cascadia Code"
+
+[window]
+opacity = 0.9

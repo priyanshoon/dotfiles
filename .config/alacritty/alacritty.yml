@@ -227,32 +227,6 @@ colors:
 #     white:   '0xf5f5f5'
 #     orange:  '0xceb188' #Here for reference
 
-# Colors (Tomorrow Night)
-colors:
- #Default colors
-  primary:
-    background: '#181616'
-    # background: '#0b0e05'
-    # background: '#1a1d1c'
-    # background: '#1d2020'
-    # background: '#1c1c1c'
-    foreground: '#b8b8ae'
-
-    # Bright and dim foreground colors
-    #
-    # The dimmed foreground color is calculated automatically if it is not
-    # present. If the bright foreground color is not set, or
-    # `draw_bold_text_with_bright_colors` is `false`, the normal foreground
-    # color will be used.
-    #dim_foreground: '#828482'
-    #bright_foreground: '#eaeaea'
-
-  # Cursor colors
-  #
-  # Colors which should be used to draw the terminal cursor.
-  #
-  # Allowed values are CellForeground/CellBackground, which reference the
-  # affected cell, or hexadecimal colors like #ff00ff.
   cursor:
     text: CellBackground
     cursor: CellForeground
