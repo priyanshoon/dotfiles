@@ -115,4 +115,4 @@ alias vi="nvim"
 
 # neofetch
 
-. "/home/priyanshoon/.deno/env"
+# . "/home/priyanshoon/.deno/env"
